@@ -1,4 +1,4 @@
-package com.ez.users.services;
+package com.ez.users.services.user;
 
 import com.ez.users.shared.UserDto;
 import org.springframework.security.core.userdetails.UserDetailsService;

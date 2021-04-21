@@ -1,4 +1,4 @@
-package com.ez.users.data;
+package com.ez.users.data.user;
 
 import org.springframework.data.repository.CrudRepository;
 

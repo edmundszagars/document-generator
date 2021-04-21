@@ -1,7 +1,7 @@
-package com.ez.users.services;
+package com.ez.users.services.user;
 
-import com.ez.users.data.UserEntity;
-import com.ez.users.data.UserRepository;
+import com.ez.users.data.user.UserEntity;
+import com.ez.users.data.user.UserRepository;
 import com.ez.users.shared.UserDto;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
