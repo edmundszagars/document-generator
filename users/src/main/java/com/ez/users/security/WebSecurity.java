@@ -1,6 +1,6 @@
 package com.ez.users.security;
 
-import com.ez.users.services.UserService;
+import com.ez.users.services.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;

@@ -10,7 +10,7 @@ import java.util.Objects;
 
 public class JwtToken {
 
-    Environment environment;
+    private final Environment environment;
 
     public JwtToken(Environment environment) {
         this.environment = environment;

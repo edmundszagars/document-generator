@@ -14,7 +14,6 @@ public class CurrentUser {
         HttpServletRequest request = ((ServletRequestAttributes) (RequestContextHolder.currentRequestAttributes())).getRequest();
         String token = request.getHeader("Authorization").split(" ")[1];
         sub = extractUserIdFromToken(token);
-
     }
 
     private String extractUserIdFromToken(String jwtToken) {
