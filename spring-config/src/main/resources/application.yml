@@ -1,3 +1,6 @@
+server:
+  port: 9297
+
 spring:
   application:
     name: config-server
@@ -5,5 +8,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/igorkosandyak/demo-config-server.git
+          uri: https://github.com/edmundszagars/document-server-config.git
           clone-on-start: true
